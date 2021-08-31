@@ -323,7 +323,7 @@ class_table(
 
 ### Request
 * 강의 삭제
-`POST /lecture-delete` 
+`DELETE /lecture-delete` 
 
 #### INPUT
 ```

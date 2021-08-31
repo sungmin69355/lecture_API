@@ -24,7 +24,7 @@ router.post('/signup', user_validate.user_singup, user.signup);
 router.post('/lecture-enrollment',lecture_enrollment_validation.enrollment_validation, enrollment.lecture_enrollment);
 
 //강의 삭제
-router.post('/lecture-delete',lecture_related_validation.lecture_delete, lecture_related.lecture_delete);
+router.delete('/lecture-delete',lecture_related_validation.lecture_delete, lecture_related.lecture_delete);
 
 //강의 오픈
 router.post('/lecture-open', lecture_related_validation.lecture_open, lecture_related.lecture_open);
